@@ -1,12 +1,13 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    'NAME' => 'pake',
-    'DISTNAME' => 'pake',
-    'EXE_FILES' => ['pake'],
-    'VERSION_FROM' => 'pake',
-    'PREREQ_PM' => {
-	'Getopt::Std' => '1.05'
-    },
-    'PRINT_PREREQ' => 1
-    );
+	'AUTHOR' => 'Krzysztof Suchomski',
+	'NAME' => 'pake',
+	'DISTNAME' => 'pake',
+	'EXE_FILES' => ['script/pake'],
+	'VERSION_FROM' => 'script/pake',
+	'PREREQ_PM' => {
+		'Getopt::Std' => '1.05'
+	},
+	'PRINT_PREREQ' => 1
+);
